@@ -1,1 +1,68 @@
-/* CSS stillerinizi buraya girin */
+/* CSS stillerinizi buraya girin */*{
+    margin-left: 0;
+    
+}
+header {
+    background-color: rgb(186, 176, 181);
+    margin: 5px;
+    padding: 2%;
+   
+    width: 100%;
+    border-bottom: 2px solid black;
+
+}
+header a {
+    border: 1px solid;
+    margin: 5px 0px;
+    padding:  5px;
+}
+section{
+    display: flex;
+    flex-flow: row;
+   
+}
+div {
+    width: ;
+    padding: 50px;
+    justify-items:center;
+    align-items: center;
+    display: flex;
+}
+.yazi{
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#img1 { 
+        width: 475px;
+        height: 375px;
+
+}
+.resim{
+    display: flex;
+    flex-wrap: wrap;
+}
+.resim img{
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 28%;
+    padding: 2%;
+}
+
+footer {
+    display: flex;
+        
+   
+}
+footer div {
+    background-color: rgb(186, 176, 181);
+        margin: 0;
+        padding: ;
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid black;
+        flex-direction: column;
+    
+    
+}
